@@ -19,6 +19,7 @@ a {
 }
 a:hover {
   color: #6633ff;
+  cursor: pointer;
 }
 
 /* Section Styles */
@@ -75,6 +76,10 @@ header .profile-image {
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+}
+figcaption {
+  font-style: italic;
+  font-size: 0.8em;
 }
 #farmer {
   height: 275px;
